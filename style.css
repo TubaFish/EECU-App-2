@@ -1,3 +1,8 @@
+
+/* BEWARE THERE ARE MULTPLES IN THIS CSS FILE. I Dev-D fixed some of the issues, however I don't know if there are more*/
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -183,6 +188,8 @@ nav>div >a {
     place-items: center;
     margin-top: 100px;
 }
+
+
 .career {
 width: 411px;
 height: 256px;
@@ -209,7 +216,7 @@ background-color: #6297D4;
 
 .bottom{
   display:flex;
-  width:100vw;
+  width:99vw;
   justify-content:space-around;
   align-items:center;
   height:10vh;
@@ -251,12 +258,6 @@ background-color: #6297D4;
   height: 450px;
 }
 
-#container {
-  display: flex;
-  overflow-x: hidden;
-  gap: 20px;
-}
-
 .red-text {
   display:flex;
   color: #C90000;
@@ -281,10 +282,16 @@ font-size: 32px;
 }
 
 #tax-calc {
+  justify-content: space-around;
   background-color: var(--current-page);
   border-radius: 20px;
   height: 30vh;
+  width: 70vw;
   flex-wrap: nowrap;
+}
+
+#container {
+display: 20px;
 }
 
 .calc-header {
@@ -293,12 +300,12 @@ font-size: 32px;
 }
 
 .money-number {
-display: flex;
-justify-content: space-around;
+  display: flex;
+  justify-content: space-between;
 }
 
 .explanations {
-  display:  flex;
+  display: flex;
   justify-content: space-between;
   font-size: 20px;
   font-weight: 200; 
@@ -336,26 +343,6 @@ background-color: var(--current-page)
 
 .tax-num {
   padding-bottom: 1;
-}
-
-#tax-calc {
-display: flex;
-flex-direction: column;
-}
-.calc-header {
-  display: flex;
-
-}
-
-.money-number {
-  display: flex;
-  justify-content: space-between;
-}
-
-.explanations {
-  display: flex;
-  justify-content: flex-start;
-  color: white;
 }
 
 .monthly-budget-header {
